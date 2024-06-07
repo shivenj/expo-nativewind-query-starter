@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "splash": {
+      "image": "./assets/images/splash_screen.png",
+      "backgroundColor": "#FFFFFF",
+      "resizeMode": "cover"
+    },
+    "web": {
+      "output": "static",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://n"
+        }
+      ]
+    ],
+    "name": "expo-template",
+    "slug": "expo-template",
+    "ios": {
+      "bundleIdentifier": "com.template",
+      "splash":{
+        "backgroundColor": "#FFFFFF",
+        "image": "./assets/images/splash_screen.png",
+        "resizeMode": "cover"
+      }
+    },
+    "android": {
+      "package": "com.template",
+      "splash":{
+        "backgroundColor": "#FFFFFF",
+        "image": "./assets/images/splash_screen.png",
+        "resizeMode": "cover"
+      }
+    }
+  }
+}
